@@ -1,0 +1,40 @@
+# =====================================================================
+# LTspice - Archivos temporales y binarios de salida de simulación
+# =====================================================================
+*.raw
+*.op.raw
+*.fft
+*.qraw
+*.log
+*.net
+*.swn
+*.olt
+*.mda
+*.conv
+
+# Archivos de respaldo y temporales de edición de LTspice
+*.bck
+*.bak
+*.~*
+*.tmp
+
+# =====================================================================
+# Archivos del sistema y editores
+# =====================================================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# =====================================================================
+# EXCEPCIONES: Archivos que SIEMPRE deben rastrearse
+# =====================================================================
+!*.asc
+!*.asy
+!*.lib
+!*.sub
+!*.mod
+!*.cir
+!*.net.example
